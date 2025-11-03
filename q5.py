@@ -358,8 +358,7 @@ test = {   'name': 'q5',
                                                '...            -2.5444e+00, -1.6042e+00,  3.5160e-01,  1.1051e-01,  1.9419e+00,\n'
                                                '...             9.6754e-01,  2.4499e-01,  1.3944e+00]]]).to(device)\n'
                                                '>>> ddpm_c_sample_output0, _ = ddpm_c_test.sample(10, (1, 28, 28), device=device, guide_w=0.1)\n'
-                                               '>>> assert torch.allclose(ddpm_c_sample_output0[0], ddpm_c_sample_gt0, rtol=0.01)\n'
-                                               'torch.Size([10, 1, 28, 28])\n',
+                                               '>>> assert torch.allclose(ddpm_c_sample_output0[0], ddpm_c_sample_gt0, rtol=0.01)\n',
                                        'hidden': False,
                                        'locked': False}],
                       'scored': True,
